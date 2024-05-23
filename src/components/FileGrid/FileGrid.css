@@ -1,0 +1,26 @@
+.file-grid-container {
+  margin: 20px;
+  border: 1px solid #ddd;
+}
+
+table td .status-available {
+  margin-left: -12px;
+}
+
+table td .status-available::before {
+  content: url('../../icons/available.png');
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.checkbox {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.file-grid-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
